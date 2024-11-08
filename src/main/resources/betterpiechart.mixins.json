@@ -1,14 +1,15 @@
 {
-	"required": true,
-	"package": "dev.kinau.betterpiechart.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-	],
-	"client": [
-		"LevelRendererMixin",
-		"BlockEntityRenderDispatcherMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "dev.kinau.betterpiechart.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BlockEntityRenderDispatcherMixin",
+    "LevelRendererMixin",
+    "ProfilerPieChartMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
